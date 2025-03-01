@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Internal CSS -->
+    <style>
+        p {
+            background-color: blue;
+        }
+        .example {
+            color: blueviolet;
+        }
+        
+        #example {
+            color: brown;
+        }
+
+        *{
+            color: aqua;
+        }
+
+        div span {
+            color: aquamarine;
+        }
+
+        ul>li {
+            color: darkblue;
+        }
+
+        input[type="text"] {
+            background-color: darkred;
+        }
+        
+        h1,h2,h3 {
+            color: peru;
+        }
+    </style>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Inline CSS -->
+    <p style="color: red;">Sampath</p>
+    <!-- class selector -->
+    <div class="example">First Class</div>
+
+    <!-- id selector -->
+    <div id="example">First Class</div>
+
+    <!-- universal selector -->
+    <div>First Class</div>
+
+    <!-- Descendant selector -->
+    <div>
+        <span>First Class</span>
+    </div>
+
+    <!-- Child selector -->
+    <ul>
+        <li>First Class</li>
+    </ul>
+
+    <!-- Attribute selector -->
+    <input type="text">
+
+    <!-- Grouping Selector -->
+    <h1>First Class</h1>
+    <h2>First Class</h2>
+    <h3>First Class</h3>
+
+</body>
+</html>
